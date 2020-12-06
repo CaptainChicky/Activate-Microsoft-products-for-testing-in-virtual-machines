@@ -1,5 +1,3 @@
-# NOT DONE YET SO PLEASE WAIT
-
 # DISCLAIMER!!!
 <sub>Unfortunately, since this could actually get me into legal trouble, I have to include this at the top :/<sub>
   
@@ -38,7 +36,17 @@ In the repository, you can find tools to activate the following software ***for 
 *Why the "may be not limited to"?* Well that's because these versions are either what I have installed in virtual machines and thus can confirm they work, or have seen them work when used by other people. However, since these tools are intended for a wide array of software versions, they will most likely work on other versions of said software as well.
   
 # What about the virtual disk image files or media creation tools to install these?
-Unfortunately, I do not have a collection of all of them, and as a result, the repository collection of these will be incomplete. One would need to surf the internet or ask a forum like reddit for such files that are missing from here.
+Unfortunately, literally 90% of them are greater than 2 GB, meaning I can't even put them in the "releases" section. This means that, unfortunately, I will not be able to supply them to you. I *can* provide some resources to get them though.
+
+**Places to get virtual disk images, working and *safe* as of December 5th, 2020**:
+  - https://tb.rg-adguard.net/public.php
+  - https://winworldpc.com/library/operating-systems
+  - https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool (.exe file)
+  - https://www.microsoft.com/en-us/software-download/windows8ISO
+  - https://www.microsoft.com/en-US/Download/confirmation.aspx?id=7120 (will directly start downloading once clicked)
+  - https://www.microsoft.com/en-us/Download/confirmation.aspx?id=18242 (will directly start downloading once clicked)
+  - https://isoriver.com/
+  - https://archive.org/details/operatingsystemcds
 
 # In-depth explanation for each of the tools included...
   1) autoKMS
