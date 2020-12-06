@@ -1,0 +1,3 @@
+Activates Win10. Run once and delete. 
+Use KMS38 mode for LTSC/Enterprise, else HWID. 
+KMS38 mode lasts until 2038, HWID mode is permanent.
