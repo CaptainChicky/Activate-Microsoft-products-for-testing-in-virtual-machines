@@ -3,7 +3,7 @@
 # DISCLAIMER!!!
 <sub>Unfortunately, since this could actually get me into legal trouble, I have to include this at the top :/<sub>
   
-Everything here in this repository is for ***educational purposes only***, with the usage of such tools ***only*** intended for **testing** software or of the like *inside virtual machines*. I do **NOT** enourage people to pirate windows, or **any** of Microsoft's software, as a matter of fact. **NEVER** use this as a way to activate windows on a real computer, or a way to ilegally obtain free software. **Buy the key!**
+Everything here in this repository is for ***educational purposes only***, with the usage of such tools ***only*** intended for **testing** software or of the like *inside virtual machines*. I do **NOT** enourage people to pirate windows, or **any** of Microsoft's software. As a matter of fact, **NEVER** use this as a way to activate windows on a real computer, or a way to ilegally obtain free software. **Buy the key!**
 
 # Story time :)
 Ok now that is out of the way, let me tell you a story. Naive me a couple years ago bought Microsoft Office 2016 standalone for 60 USD from a retailer named "BongoRolls" on Amazon. 
