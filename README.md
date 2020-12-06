@@ -26,13 +26,12 @@ In the repository, you can find tools to activate the following software ***for 
   3) Windows XP SP3 Professional Corporate x64 and Professional x86
   4) Windows Vista Home Premium SP2 x86 and x64
   5) Windows 7 Ultimate x64
-  6) Windows 8 Professional x64
-  7) Windows 8.1 Professional x64
-  8) Windows 10 Professional x64
-  9) Microsoft Office 2016
-  10) Microsoft Office 2019
-  11) Windows Server 2016(Datacenter, Essentials, Standard)
-  12) Windows Server 2019(Datacenter, Essentials, Standard)
+  6) Windows 8/8.1 Professional x64
+  7) Windows 10 Professional x64
+  8) Microsoft Office 2016
+  9) Microsoft Office 2019
+  10) Windows Server 2016(Datacenter, Essentials, Standard)
+  11) Windows Server 2019(Datacenter, Essentials, Standard)
 
 *Why the "may be not limited to"?* Well that's because these versions are either what I have installed in virtual machines and thus can confirm they work, or have seen them work when used by other people. However, since these tools are intended for a wide array of software versions, they will most likely work on other versions of said software as well.
   
