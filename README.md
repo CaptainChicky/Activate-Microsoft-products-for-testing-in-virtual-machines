@@ -48,6 +48,7 @@ Unfortunately, literally 90% of them are greater than 2 GB, meaning I can't even
   - https://isoriver.com/
   - https://archive.org/details/operatingsystemcds
   - https://web.archive.org/web/20180704214535/http://mirror.corenoc.de/digitalrivercontent.net/
+  - https://getintopc.com/
 
 # In-depth explanation for each of the tools included...
   1) autoKMS
