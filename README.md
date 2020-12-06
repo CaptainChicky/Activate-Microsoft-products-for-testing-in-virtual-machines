@@ -5,6 +5,7 @@ Everything here in this repository is for ***educational purposes only***, with 
 
 # Overview
 Ok now that is out of the way, let me tell you a story. Naive me a couple years ago bought Microsoft Office 2016 standalone for 60 USD from a retailer named "BongoRolls" on Amazon. 
+
 ![](../main/ReadMe-Reference-Images/Wasted-60-dollars.PNG)
 
 I was emailed the virtual disk image and the activation key. After installing office, I just let it sit there for a while, since I hadn't had a use for it during said 2 weeks. When I finally needed to use Excel and Powerpoint, I put the key in and guess what?
