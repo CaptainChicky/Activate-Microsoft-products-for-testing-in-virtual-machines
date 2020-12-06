@@ -54,4 +54,8 @@ https://docs.microsoft.com/en-us/deployoffice/vlactivation/configure-a-kms-host-
 
   2) Windows Loader
   
-Alright, here is where it gets a bit hardcore. Your antivirus will definetely flag this as a "CRCK_KEYGEN" or "Hacktool:Win32/Keygen"
+Alright, here is where it gets a bit hardcore. Your antivirus will definetely flag this as a "CRCK_KEYGEN" or "Hacktool:Win32/Keygen" or something similar, so make sure to turn it off when running, and keep the loader in a safe place. Secondly, if KB971033 windows update is installed, delete that update. It will make Windows Loader not work. Alright, not that is out of the way, let me explain this.
+
+Microsoft has 3 different distribution channels for their products, namely retail, OEM, and volume license. AutoKMSes use the volume license to activate the product, but Windows Vista, and Windows 7 Home Premium/Ultimate only had retail and OEM licenses availible. This means that any autoKMS will not be able to use a volume license to connect to a KMS server to activate the product, because there isn't volume license to begin with. 
+
+This is where Windows Loader by Daz comes in. 
