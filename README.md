@@ -41,4 +41,17 @@ In the repository, you can find tools to activate the following software ***for 
 Unfortunately, I do not have a collection of all of them, and as a result, the repository collection of these will be incomplete. One would need to surf the internet or ask a forum like reddit for such files that are missing from here.
 
 # In-depth explanation for each of the tools included...
-To be added
+  1) autoKMS:
+  
+KMS, or Key Management Service is something developed my Microsoft themselves, aimed towards large organizations/companies, such that they can have an easier time managing all their computers OSes, especially since there can be a huge number of them. Said company hosts a local KMS server that will host all licenses the organization has purchased inside their own network, compared to each computer reaching Microsoft's servers to maintain their status of validity, over the internet. However, each computer has to contact the KMS server every 6 months to remain activated.
+
+What the autoKMSes(**a big thanks to *msguides.com* for hosting the servers**) included here do is that they convert your retail/trial license into a volume license by changing the retail key into a generic volume license key. Then, it changes the default KMS server to contact into msguides's servers(i.e. kms***X***.MSGuides.com where X is a number) by default to activate the product and recontacts the server every 6 months to remain activated. Problems arise if the server is ever taken down, either by the developers of the server themselves, or by Microsoft if it decides to crack down on such unconvential activation methods. If the server is down by some means, your product would not be able to contact said server(every 6 months though, so if you still have like 3 months left before it needs to recontact the KMS server, per say, your product will remain activated for that 3 months) to remain activated and deactivate itself. 
+
+However, note that these batch scripts are recently now detected by Windows Defender, Malwarebytes, Trend Micro, and most likely other antivirus software as something similar to "HackTool:Win32/AutoKMS", so please disable antivirus when running said script, and place it in a safe spot where your antivirus can't touch it.
+
+Speaking of which, here's a guide on how to host/make your own KMS server(if link is down use archive.org or something):
+https://docs.microsoft.com/en-us/deployoffice/vlactivation/configure-a-kms-host-computer-for-office
+
+  2) Windows Loader
+  
+Alright, here is where it gets a bit hardcore. Your antivirus will definetely flag this as a "CRCK_KEYGEN" or "Hacktool:Win32/Keygen"
