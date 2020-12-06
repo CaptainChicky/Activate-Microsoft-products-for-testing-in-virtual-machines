@@ -41,21 +41,39 @@ In the repository, you can find tools to activate the following software ***for 
 Unfortunately, I do not have a collection of all of them, and as a result, the repository collection of these will be incomplete. One would need to surf the internet or ask a forum like reddit for such files that are missing from here.
 
 # In-depth explanation for each of the tools included...
-  1) autoKMS:
+  1) autoKMS
   
+Please visit [msguides](https://msguides.com/) for the source. No registration needed.
+
 KMS, or Key Management Service is something developed my Microsoft themselves, aimed towards large organizations/companies, such that they can have an easier time managing all their computers OSes, especially since there can be a huge number of them. Said company hosts a local KMS server that will host all licenses the organization has purchased inside their own network, compared to each computer reaching Microsoft's servers to maintain their status of validity, over the internet. However, each computer has to contact the KMS server every 6 months to remain activated.
 
 What the autoKMSes(**a big thanks to *msguides.com* for hosting the servers**) included here do is that they convert your retail/trial license into a volume license by changing the retail key into a generic volume license key. Then, it changes the default KMS server to contact into msguides's servers(i.e. kms***X***.MSGuides.com where X is a number) by default to activate the product and recontacts the server every 6 months to remain activated. Problems arise if the server is ever taken down, either by the developers of the server themselves, or by Microsoft if it decides to crack down on such unconvential activation methods. If the server is down by some means, your product would not be able to contact said server(every 6 months though, so if you still have like 3 months left before it needs to recontact the KMS server, per say, your product will remain activated for that 3 months) to remain activated and deactivate itself. 
 
 However, note that these batch scripts are recently now detected by Windows Defender, Malwarebytes, Trend Micro, and most likely other antivirus software as something similar to "HackTool:Win32/AutoKMS", so please disable antivirus when running said script, and place it in a safe spot where your antivirus can't touch it.
 
-Speaking of which, here's a guide on how to host/make your own KMS server(if link is down use archive.org or something):
-https://docs.microsoft.com/en-us/deployoffice/vlactivation/configure-a-kms-host-computer-for-office
+Speaking of which, [here's](https://docs.microsoft.com/en-us/deployoffice/vlactivation/configure-a-kms-host-computer-for-office) a guide on how to host/make your own KMS server(if link is down use archive.org or something).
 
   2) Windows Loader
+  
+Please visit [Daz's MyDigitalLife forum page](https://forums.mydigitallife.info/threads/58464-Windows-Loader-Download) for the source. Registration required. Here are also [two](https://forums.mydigitallife.net/threads/window-7-64-daz-loader-uefi-motherboard-disabling-uefi-will-work.34528/) further [links](https://forums.mydigitallife.net/threads/you-can-activate-win7-on-a-gpt-partition-with-daz-loader-without-converting-gpt-mbr.76768/) viewable without registration.
   
 Alright, here is where it gets a bit hardcore. Your antivirus will definetely flag this as a "CRCK_KEYGEN" or "Hacktool:Win32/Keygen" or something similar, so make sure to turn it off when running, and keep the loader in a safe place. Secondly, if KB971033 windows update is installed, delete that update. It will make Windows Loader not work. Alright, not that is out of the way, let me explain this.
 
 Microsoft has 3 different distribution channels for their products, namely retail, OEM, and volume license. AutoKMSes use the volume license to activate the product, but Windows Vista, and Windows 7 Home Premium/Ultimate only had retail and OEM licenses availible. This means that any autoKMS will not be able to use a volume license to connect to a KMS server to activate the product, because there isn't volume license to begin with. 
 
-This is where Windows Loader by Daz comes in. 
+This is where Windows Loader by Daz comes in. It injects a System Licensed Internal Code into the system before Windows boots, which will result in Windows thinking it is running on an OEM computer with a license tied to the motherboard. That is, of course, assuming the disk is MBR-partitioned. Also note that all key parts of the loader are encrypted with a custom encryption, and every user has a unique version of the loader installed on his or her system.
+
+  3) Hwidgen
+  
+See one of [Aiowares forum pages](https://www.aiowares.com/showthread.php?tid=246) for the source. When downloading, use the link supplied in "Mirror 1" as of December 5th, 2020. Registration is needed.
+
+The Digital License system that Microsoft implements uses hardware based IDs which are unique for each machine. The legit tickets used for the process(can be an Upgrade from a supported predecessor or by using a Win 7/8.1 key) do not contain any product key related info. Hwidgen generates a hardware ID-bound license for your machine based on the hardware ID your machine has according to the same algorithm Microsoft uses to generate your hardware ID. It then installs this license on the machine.
+
+This generated new license is stored in Microsoft's servers and will activate a machine that used Hwidgen even if you do a fresh install of Windows afterwards. Hwidgen only needs to be used once per machine(run once and delete). In later fresh installments of Windows, just skip any key prompts(choose 'I have no product key' during setup) and when the machine makes online contact with Microsoft's servers, they will regocnize the hardware ID and grant activation automatically. Only hardware changes will cause the license generated by Hwidgen being invalidated, but as we all know, this is normal, as *even* **legit** licenses can be invalidated by hardware changes. 
+
+  4) Keys
+  
+Yep, as its name suggests, they are just activation keys supplied in .txt files. I've surfed the internet, far and wide to find them, and I've confirmed that they all work as of December 5th, 2020. I can't say for sure in the future, though. Use then while you can 😋.
+
+# Closing...
+Have fun with your activated software testing for *educational purposes* in *virtual machines* 😛!
