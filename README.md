@@ -95,7 +95,7 @@ This generated new license is stored in Microsoft's servers and will activate a 
 
   4) Mobile Self-Service
   
-See [msguides's activate Windows 7 guide](https://msguides.com/microsoft-software-products/3-methods-get-free-windows-7-license.html) for the source of this method. Also see [these](https://www.reddit.com/r/microsoft/comments/fud50o/httpsmsdevgointeractio_down/) [two](https://www.reddit.com/r/microsoft/comments/g0pb99/self_service_for_mobile_dissapeared/) Reddit posts for the working MS self-service for mobile links.
+See [msguides's activate Windows 7 guide](https://msguides.com/microsoft-software-products/3-methods-get-free-windows-7-license.html) for the source of this method. Also see [these](https://www.reddit.com/r/microsoft/comments/fud50o/httpsmsdevgointeractio_down/) two Reddit [posts](https://www.reddit.com/r/microsoft/comments/g0pb99/self_service_for_mobile_dissapeared/) for the working MS self-service for mobile links.
 
 *Note*: This method *only* works with keys that are legitamite, and have *not* been blacklisted by Microsoft. So have a good time finding that. Here at least I've found one legitamite key that works 🥳 and isn't blacklisted.
 
