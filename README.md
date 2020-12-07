@@ -49,6 +49,8 @@ Unfortunately, literally 90% of them are greater than 2 GB, meaning I can't even
   - https://archive.org/details/operatingsystemcds
   - https://web.archive.org/web/20180704214535/http://mirror.corenoc.de/digitalrivercontent.net/
   - https://getintopc.com/
+  
+And **yes**, I have indeed considered compressing them in .zip, .rar., and .7z, but after doing so, there would be still 25% of them that are larger than 2 GB. So unfortunately, you're on your own buddy 😔.
 
 # In-depth explanation for each of the tools included...
   1) autoKMS
